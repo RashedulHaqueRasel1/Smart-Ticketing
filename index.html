@@ -8,17 +8,85 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Style Link -->
+  <link rel="stylesheet" href="Style/style.css">
+
   <title>Smart Ticketing</title>
 </head>
 
-<body>
+<body class="container mx-auto lg:container lg:mx-auto ">
 
   <header>
+    <!-- Navbar Section Star -->
+    <div class="navbar mt-12 mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost font-extrabold text-4xl">P-Ticket</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 ">
+          <li><a class="text-[#030712]">Home</a></li>
+          <li><a class="text-[#030712]">About</a></li>
+          <li><a class="text-[#030712]">Destination</a></li>
+          <li><a class="text-[#030712]">Search</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn bus-btn"> <span class="text-green-500 text-xl">Bus</span>
+          <img src="images/bus-icon.png" alt="" srcset="">
+        </a>
+      </div>
+    </div>
 
-
+    <!-- Navbar Section End -->
   </header>
 
   <main>
+
+    <!-- Hero Section Start  -->
+
+    <section class="mt-6">
+      <div class="hero w-full h-[750px] rounded-lg" style="background-image: url(./images/banner.png);">
+        <div class="hero-content text-center text-neutral-content">
+          <div class=" mx-auto m-4">
+            <h1 class="mb-14 text-5xl text-[#FFFFFF]    font-extrabold">End-to-End Travel with
+              <br> <span class="text-[#1DD100]">P Paribahan</span>
+            </h1>
+            <p class="mb-5  text-center">Yes, you can run unit tests and view the results directly within the app. The integrated
+              testing features allow for a streamlined . </p>
+            <button class="btn bg-[#1DD100] outline-none hover:outline-none hover:bg-[#1DD100] mt-8 font-bold text-xl">Buy
+              Tickets</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Section End  -->
+    </section>
+
+
+
+
+
 
 
   </main>
