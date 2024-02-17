@@ -1,4 +1,4 @@
-
+/* Google Font Link */
 
 /* // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900 */
@@ -12,4 +12,17 @@
 
 .bus-btn{
   box-shadow: #1DD100 0px 2px 2px;
+}
+
+
+/* // uniquifier: Use a uniquifier for the class name
+// weight: Use a value from 100 to 900 */
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
