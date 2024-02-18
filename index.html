@@ -167,7 +167,7 @@
               </div>
               <div class="ml-36 items-center flex">
                 <img src="images/seat-green.png" alt="">
-                <p class="Inter font-medium text-[#1DD100] ml-2">40 Seats left</p>
+                <p class="Inter font-medium text-[#1DD100] ml-2"> <span id="seat-maines">8</span> Seats left</p>
               </div>
             </div>
 
@@ -203,19 +203,140 @@
     </section>
     <!-- P.H Paribahan section End-->
 
+    <!-- Select Your Seat Section Start -->
+    <section class="mt-7 mb-32">
+      <div class="flex  ">
+        <!-- Select Your Seat Right Side -->
+        <div class="w-3/5 ">
+         
+          <div class="">
+            <h1 class="text-2xl font-semibold text-[#030712] mt-8 ml-8">Select Your Seat</h1>
+           
+            <div class="p-6">
+              
+              <div class="flex justify-between w-[95%] mt-12 ">
+                <div class="flex gap-2">
+                  <img src="images/seat-gray.png" alt="">
+                  <p class="Inter text-[18px] font-medium text-[#030712] opacity-50">Available</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="images/seat-green-filled.png" alt="">
+                  <p class="Inter text-[18px] font-medium text-[#1DD100]">Selected</p>
+                </div>
+              </div>
+    
+  
+                <div class="ml-[700px] mt-7">
+                  <img src="images/Group 56.png" alt="">
+                </div>
+  
+    
+              <!-- Bus Seat -->
+    
+              <div class="mt-6">
+                <div class="flex items-center justify-between  mt-5">
+                  <h1>A</h1>
+                  <button class="kyb btn px-12 buttonClick">A2</button>
+                  <button class="kyb btn px-12 buttonClick">A3</button>
+                  <button class="kyb btn px-12 buttonClick">A1</button>
+                  <button class="kyb btn px-12 buttonClick">A4</button>
+                </div>
+    
+                <div class="flex items-center justify-between  mt-5">
+                  <h1>B</h1>
+                  <button class="kyb btn px-12 buttonClick">B1</button>
+                  <button class="kyb btn px-12 buttonClick">B2</button>
+                  <button class="kyb btn px-12 buttonClick">B3</button>
+                  <button class="kyb btn px-12 buttonClick">B4</button>
+                </div>
+            </div>
+  
+          </div>
+
+
+          </div>
+
+        </div>
+
+        <img src="images/Line 1.png" alt="">
+
+        <!-- Select Your Seat Left Side -->
+        <div class="h-2/5">
+          <h1 class="text-2xl font-semibold text-[#030712] mt-8 ml-8">Select Your Seat</h1>
+
+          <div class="w-[500px]  ml-[47px] mt-12  ">
+
+            <div class="flex justify-between mt-8  ">
+              <p class="Inter font-medium text-[#030712]">Seat <span id="seat-count" class="bg-[#1DD100] w-[11px] h-[13px] rounded-lg text-white">0</span></p>
+              <p class="Inter font-medium text-[#030712]">Class</p>
+              <p class="Inter font-medium text-[#030712]">Price</p>
+            </div>
+
+            <div id="seat-show" class="">
+              <p>Test 1</p>
+              <p>Test 2</p>
+              <p>Test 3</p>
+            </div>
+            <!-- Total Price -->
+            <div class="flex justify-between mt-10">
+              <p class="Inter font-medium text-[#030712]">Total Price</p>
+              <p class="Inter font-medium text-[#030712]">BDT <span>0</span></p>
+            </div>
+
+            <!-- Coupon -->
+            <div class=" px-2 mt-4 rounded-lg flex justify-between items-center w-full">
+              <input class="py-4 text-[18px] rounded-lg" type="text" placeholder="Have any copupon?">
+              <button id="coupon" class="btn text-[18px] text-white hover:bg-[#1DD100] bg-[#1DD100]">Apply</button>
+            </div>
+
+            <!-- Grand Total -->
+            <div class="flex justify-between mt-8">
+              <p class="Inter font-medium text-[#030712]">Grand Total</p>
+              <p class="Inter font-medium text-[#030712]">BDT <span>0</span></p>
+            </div>
+
+            <!-- Input Name -->
+            <div class="mt-7">
+              <h1 class="Inter font-medium text-[#030712]">Passenger Name*</h1>
+              <input class="w-[433px] h-[50px] mt-4" type="text" placeholder="Enter your name">
+            </div>
+            <!-- Input Number -->
+            <div class="mt-7">
+              <h1 class="Inter font-medium text-[#030712]">Phone Number*</h1>
+              <input class="w-[433px] h-[50px] mt-4" type="text" placeholder="Enter your phone number">
+            </div>
+            <!-- Input Email -->
+            <div class="mt-7">
+              <h1 class="Inter font-medium text-[#030712]">Email ID</h1>
+              <input class="w-[433px] h-[50px] mt-4" type="text" placeholder="Enter your email id">
+            </div>
+
+            <!-- Input Btn -->
+            <div class="mt-6">
+              <button class="btn btn-block text-[18px] text-white hover:bg-[#1DD100] bg-[#1DD100]">Next</button>
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="flex justify-center space-x-8 underline mt-6">
+              <a href="#">Terms and Conditions</a>
+              <a href="#">Cancellation Policy</a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Select Your Seat Section End -->
+
 
 
 
   </main>
 
-  <footer>
 
-
-  </footer>
-
-
+  <script src="js/script.js"></script>
   <script src="js/utility.js"></script>
-  <script src="js/Smart-Ticketing.js"></script>
 </body>
 
 </html>
