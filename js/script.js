@@ -55,7 +55,7 @@ for (const key of keys) {
 
     // Grand Price
     const totalAmount = add * seatPrice;
-    document.getElementById("grand-total").innerText = totalAmount;
+    document.getElementById("grand-total").innerText = totalAmount.toFixed(2);
 
 
 
@@ -118,7 +118,7 @@ for (const key of keys) {
 
 
 
-//  Button Disabled
+// Apply Button Disabled
 
   document.getElementById("input-coupon").addEventListener("keyup", function(e){
     const test2 = e.target.value;
@@ -152,7 +152,7 @@ btnCoupon.addEventListener("click", function () {
         
         // console.log(discountAmount)
 
-        document.getElementById("grand-total").innerText = discountAmount;
+        document.getElementById("grand-total").innerText = discountAmount.toFixed(2);
 
         document.getElementById("div-hidden").style.display = 'none' ;
 
@@ -167,7 +167,7 @@ btnCoupon.addEventListener("click", function () {
  
         // console.log(discountAmount2)
 
-        document.getElementById("grand-total").innerText = discountAmount2;
+        document.getElementById("grand-total").innerText = discountAmount2.toFixed(2);
 
         document.getElementById("div-hidden").style.display = 'none' ;
 
